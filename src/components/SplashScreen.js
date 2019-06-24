@@ -2,12 +2,11 @@ import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
 import Icon from "react-native-vector-icons/FontAwesome5";
 
-export default class SplashScreen extends Component {
+export default class SplashScreen extends Component {	
   render() {
     return (
       <View style={styles.container}>
         <Icon name="spinner" style={styles.loading} />
-				<Text style={styles.loadingText}>Loading...</Text>
       </View>
     );
   }

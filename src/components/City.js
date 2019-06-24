@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { View, StyleSheet, Text, Image } from "react-native";
-
+import { connect } from 'react-redux'
 
 export default class City extends Component {
   constructor(props) {

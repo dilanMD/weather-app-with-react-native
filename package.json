@@ -7,10 +7,16 @@
     "test": "jest"
   },
   "dependencies": {
+    "navigation": "^5.1.1",
+    "randomcolor": "^0.5.4",
     "react": "16.8.3",
     "react-native": "0.59.9",
     "react-native-elements": "^1.1.0",
-    "react-native-vector-icons": "^6.5.0"
+    "react-native-swipe-list-view": "^1.5.6",
+    "react-native-swiper": "^1.5.14",
+    "react-native-vector-icons": "^6.5.0",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",

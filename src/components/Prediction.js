@@ -7,7 +7,7 @@ export default class Prediction extends Component {
     this.state = {};
   }
 
-  dayPicker(applicable_date, index) {
+  dayPicker(index) {
     $day = new Date().getDay() + 1 + index;
     $weeks = [
       "Sunday",
@@ -28,7 +28,7 @@ export default class Prediction extends Component {
           <View style={this.props.style} key={index}>
             <Text
               style={styles.day}
-              onLoad={this.dayPicker(item.applicable_date, index)}
+              onLoad={this.dayPicker(index)}
             >
               {
 								$weekname
